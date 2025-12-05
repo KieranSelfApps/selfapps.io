@@ -1,0 +1,40 @@
+
+/* Simple clean style – feel free to customize */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+h1 { font-size: 4rem; margin: 0; color: #58a6ff; }
+h2 { color: #58a6ff; }
+p { font-size: 1.4rem; }
+
+ul { list-style: none; padding: 0; }
+li { margin: 1rem 0; font-size: 1.3rem; }
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+form input, form button {
+  font-size: 1.1rem;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 6px;
+}
+form button { background: #238636; color: white; cursor: pointer; }
+form button:hover { background: #2ea043; }
+
+footer { font-size: 0.9rem; color: #8b949e; }
