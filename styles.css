@@ -53,13 +53,21 @@ nav ul li a {
 }
 
 .hero {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* or flex-end */
   padding: 6rem 2rem;
-  background-image: url("PageHero.jpg");
+  background-image: url("assets/hero.jpg");
   background-size: cover;
   background-position: center;
-  color: #fff; /* ensures text is readable */
+  color: white;
+  height: 80vh;
 }
+
+.hero-content {
+  max-width: 600px;
+}
+
 
 
 .hero h1 {
