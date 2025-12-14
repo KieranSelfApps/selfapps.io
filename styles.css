@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #0d1117;
@@ -16,21 +16,28 @@ nav {
   align-items: center;
 }
 
+/* Two-line, right-aligned logo */
 .logo {
   font-family: 'Inter', sans-serif;
-  font-size: 2rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end; /* right-align both lines */
+  line-height: 1.1;
 }
 
 .logo-bold {
+  display: block;
   font-weight: 800;
+  font-size: 2.2rem;      /* larger top line */
   letter-spacing: 0.5px;
-  margin-right: 0.25rem;
 }
 
 .logo-regular {
+  display: block;
   font-weight: 400;
+  font-size: 1.2rem;      /* smaller bottom line */
+  margin-top: 0.2rem;
+  letter-spacing: 0.2px;
 }
 
 nav ul {
