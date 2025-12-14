@@ -60,19 +60,43 @@ nav ul li a {
 }
 
 .hero {
-  margin: 0;
-  padding: 0;
+  position: relative;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   background-image: url("HeroImage.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* or center */
+  justify-content: flex-start;
   color: white;
 }
+
+/* Top blur overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* adjust fade height */
+  background: linear-gradient(to bottom, rgba(13,17,23,1), rgba(13,17,23,0));
+  pointer-events: none;
+}
+
+/* Bottom blur overlay */
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* adjust fade height */
+  background: linear-gradient(to top, rgba(13,17,23,1), rgba(13,17,23,0));
+  pointer-events: none;
+}
+
 
 
 .hero-content {
