@@ -57,7 +57,7 @@ nav ul li a {
   align-items: center;
   justify-content: flex-start; /* or flex-end */
   padding: 6rem 2rem;
-  background-image: url("assets/hero.jpg");
+  background-image: url("PageHero.jpg");
   background-size: cover;
   background-position: center;
   color: white;
