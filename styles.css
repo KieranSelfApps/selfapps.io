@@ -54,8 +54,13 @@ nav ul li a {
 
 .hero {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 6rem 2rem;
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* ensures text is readable */
 }
+
 
 .hero h1 {
   font-size: 2rem;
