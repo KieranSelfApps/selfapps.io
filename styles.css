@@ -55,7 +55,7 @@ nav ul li a {
 .hero {
   text-align: center;
   padding: 6rem 2rem;
-  background-image: url("assets/hero.jpg");
+  background-image: url("PageHero.jpg");
   background-size: cover;
   background-position: center;
   color: #fff; /* ensures text is readable */
