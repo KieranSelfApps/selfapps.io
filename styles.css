@@ -35,14 +35,14 @@ nav {
 .logo-bold {
   display: block;
   font-weight: 800;
-  font-size: 2.0rem;      /* larger top line */
+  font-size: 1.5rem;      /* larger top line */
   letter-spacing: 0.5px;
 }
 
 .logo-regular {
   display: block;
   font-weight: 400;
-  font-size: 1.0rem;      /* smaller bottom line */
+  font-size: 0.5rem;      /* smaller bottom line */
   margin-top: 0.0rem;
   letter-spacing: 0.2px;
 }
