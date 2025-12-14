@@ -16,10 +16,21 @@ nav {
   align-items: center;
 }
 
-nav .logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #c9d1d9;
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-bold {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin-right: 0.25rem;
+}
+
+.logo-regular {
+  font-weight: 400;
 }
 
 nav ul {
@@ -126,4 +137,3 @@ footer {
   margin-left: 1rem;
   filter: brightness(0) invert(1);
 }
-
