@@ -1,27 +1,129 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
 body {
-  font-family: 'Inter', system-ui, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #0d1117;
+  font-family: 'Inter', sans-serif;
+  background-color: #0d1117;
   color: #c9d1d9;
+}
+
+header {
+  background-color: #161b22;
+  padding: 1rem 2rem;
+}
+
+nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  text-align: center;
 }
 
-.logo {
-  max-width: 600px;
-  height: auto;
-  margin-bottom: 2rem;
-}
-
-h1 {
-  font-size: 2rem;
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #58a6ff;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  background-color: #58a6ff;
+  color: #0d1117;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #58a6ff;
+}
+
+.card-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #161b22;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1 1 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #c9d1d9;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 1rem 0;
+}
+
+.card-button {
+  background-color: #58a6ff;
+  color: #0d1117;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #161b22;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content span {
+  font-weight: 600;
+  color: #58a6ff;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 1rem;
+  filter: brightness(0) invert(1);
+}
+
