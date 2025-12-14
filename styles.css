@@ -84,6 +84,7 @@ nav ul li a {
 .hero h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding: 20px;
 }
 
 .cta-button {
